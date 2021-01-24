@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5497D">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/frame1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <Button
+        android:id="@+id/tbldaftar12"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="#F5497D"
+        android:text="Hari ini"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <Button
+        android:id="@+id/tbldaftar13"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="#F5497D"
+        android:text="Bulan ini"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <Button
+        android:id="@+id/tbldaftar14"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="#F5497D"
+        android:text="Tahun ini"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:background="@drawable/arrow"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="136dp"
+        android:layout_height="122dp"
+        app:srcCompat="@drawable/world"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sorotan Terbaru"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda menerima +20% lebih banyak interaksi konten dalam 7 hari terakhir dibandingkan dengan Des 5 - Des 11"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="291dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

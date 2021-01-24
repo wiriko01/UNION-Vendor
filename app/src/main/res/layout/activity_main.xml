@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckapp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tbldaftar"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="10dp"
+        android:background="#F5497D"
+        android:text="@string/daftar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="151dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/sudah_daftar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tbllogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbldaftar" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="275dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/welcome_to_union"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/tbldaftar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tbllogin"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="135dp"
+        android:background="#F5497D"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>

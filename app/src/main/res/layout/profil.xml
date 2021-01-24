@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Vendor"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="406dp"
+        android:layout_height="165dp"
+        android:background="?attr/colorPrimary"
+        android:backgroundTint="#FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <Button
+        android:id="@+id/tbldaftar"
+        android:layout_width="411dp"
+        android:layout_height="51dp"
+        android:background="#F5497D"
+        android:text="Ide"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <Button
+        android:id="@+id/tbldaftar3"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="#F5497D"
+        android:text="Cerita Saya"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <Button
+        android:id="@+id/tbldaftar2"
+        android:layout_width="411dp"
+        android:layout_height="51dp"
+        android:background="#F5497D"
+        android:text="Komentar"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
+    <Button
+        android:id="@+id/tbldaftar4"
+        android:layout_width="415dp"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:text="Verivikasi Vendor"
+        android:textColor="#F5497D"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="488dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp"/>
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="49dp"
+        android:background="@drawable/arrow"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:text="UNION"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:background="@drawable/barcode"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="54dp"
+        android:layout_height="40dp"
+        android:background="@drawable/setting"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="25dp" />
+    <ImageView
+        android:layout_width="407dp"
+        android:layout_height="183dp"
+        android:background="#CDCCCC"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="113dp"
+        android:layout_height="104dp"
+        app:srcCompat="@drawable/profil"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pengguna"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

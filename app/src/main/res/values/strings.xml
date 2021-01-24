@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Vendormobile</string>
+    <string name="sudah_daftar">Sudah Daftar?</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="login">Login</string>
+    <string name="welcome_to_union">Welcome to UNION</string>
+    <string name="daftar_union">DAFTAR UNION</string>
+    <string name="daftar_dengan">Daftar dengan</string>
+    <string name="nama_depan">Nama Depan</string>
+    <string name="daftari_">Daftar</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="password">Password</string>
+    <string name="nama_belakang">Nama Belakang</string>
+    <string name="daftar_">Daftar</string>
+    <string name="email">Email</string>
+    <string name="_10">10</string>
+    <string name="bulan">Bulan</string>
+    <string name="todo">TODO</string>
+    <string name="toodo">TODO</string>
+</resources>
