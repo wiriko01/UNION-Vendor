@@ -1,2 +1,6 @@
 include ':app'
+<<<<<<< HEAD
 rootProject.name = "Vendormobile"
+=======
+rootProject.name = "vendor123"
+>>>>>>> db1f8c115e51649cd06f8ccdaa21e542424b69f5

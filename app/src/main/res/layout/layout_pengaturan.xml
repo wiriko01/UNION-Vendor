@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/grey">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/ImgBtnpengaturan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/abc_vector_test"/>
+
+        <TextView
+            android:id="@+id/txtviewpengaturan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan"
+            android:layout_toRightOf="@+id/ImgBtnpengaturan1"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Btnpengaturan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pengaturan akun"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/Btnpengaturan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bahasa"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/Btnpengaturan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pengaturan notifikasi"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/Btnpengaturan4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pusat bantuan"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/Btnpengaturan5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Aturan dan kondisi"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/Btnpengaturan6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Laporkan masalah"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:background="@color/white"/>
+    <Button
+        android:id="@+id/BtnpengaturanLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/maincolor"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

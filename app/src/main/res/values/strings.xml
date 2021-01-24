@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Vendormobile</string>
     <string name="sudah_daftar">Sudah Daftar?</string>
     <string name="daftar">DAFTAR</string>
@@ -17,4 +18,7 @@
     <string name="bulan">Bulan</string>
     <string name="todo">TODO</string>
     <string name="toodo">TODO</string>
+=======
+    <string name="app_name">vendor123</string>
+>>>>>>> db1f8c115e51649cd06f8ccdaa21e542424b69f5
 </resources>
